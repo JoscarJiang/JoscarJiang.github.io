@@ -2,17 +2,17 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>www.JoscarJiang.com/post-sitemap.xml</loc>
+        <loc>https://joscarjiang.github.io/post-sitemap.xml</loc>
         <lastmod>2017-08-16T08:31:34.638Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>www.JoscarJiang.com/page-sitemap.xml</loc>
+        <loc>https://joscarjiang.github.io/page-sitemap.xml</loc>
         <lastmod>2017-08-16T07:56:08.450Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>www.JoscarJiang.com/tag-sitemap.xml</loc>
+        <loc>https://joscarjiang.github.io/tag-sitemap.xml</loc>
         <lastmod>2017-08-16T07:56:08.265Z</lastmod>
     </sitemap>
 
