@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          null
+          斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版） - null
         
     </title>
 
-    <link rel="canonical" href="joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/">
+    <link rel="canonical" href="joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -86,8 +86,12 @@
                     <div class="post-heading">
                         <div class="tags">
                             
+                              <a class="tag" href="/tags/#Deep Learning" title="Deep Learning">Deep Learning</a>
+                            
+                              <a class="tag" href="/tags/#Chatbot" title="Chatbot">Chatbot</a>
+                            
                         </div>
-                        <h1></h1>
+                        <h1>斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）</h1>
                         <h2 class="subheading"></h2>
                         <span class="meta">
                             Posted by Joscar Jiang on
@@ -208,9 +212,7 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <h1><span id="斯坦福博士李纪为如何打造对话机器人-直播笔记太长不看版">斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）</span></h1>
-<p>[loc]</p>
-<p>李博士在直播中主要针对对话系统的4个难点进行了探讨：</p>
+                <p>李博士在直播中主要针对对话系统的4个难点进行了探讨：</p>
 <ul>
 <li>生成有意义的答复( Generating Interesting and Informative Responses ).</li>
 <li>保持说话者的一致性( How to preserve Speaker Consistency ).</li>
@@ -253,11 +255,11 @@ Action: 下一句对话<br>
 主要基于三点</p>
 <ul>
 <li>对话的简易程度( Ease of answering )<br>
-$$r(response) = -log(dull \  utterances|response)$$</li>
+$$ r(response) = -log(dull \  utterances|response) $$</li>
 <li>信息流( Information Flow ) ——考量回答的重复程度<br>
-$$r_2 = -log\ Sigmoid(cos(s_1,s_2))$$</li>
+$$ r_2 = -log\ Sigmoid(cos(s_1,s_2)) $$</li>
 <li>意义( Meaningfulness )<br>
-$$r = log\ p(response|message)+log\ p(message|response)$$</li>
+$$ r = log\ p(response|message)+log\ p(message|response) $$</li>
 </ul>
 <p>论文：<a href="https://arxiv.org/pdf/1606.01541.pdf" target="_blank" rel="external">Deep Reinforcement Learning for Dialogue Generation</a></p>
 <p>但是Reward这些特征都是人为设定的，还有许多特征没能被考量。有一个思路是通过人为去判断答复是来自机器还是人（图灵测试），但是这样的代价太昂贵，但是可以考虑用<strong>GAN</strong>。<br>
@@ -282,13 +284,9 @@ $$r = log\ p(response|message)+log\ p(message|response)$$</li>
                 <!-- Pager -->
                 <ul class="pager">
                     
-                        <li class="previous">
-                            <a href="/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/" data-toggle="tooltip" data-placement="top" title="斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）">&larr; Previous Post</a>
-                        </li>
-                    
                     
                         <li class="next">
-                            <a href="/2017/08/16/post-name/" data-toggle="tooltip" data-placement="top" title="<post name>">Next Post &rarr;</a>
+                            <a href="/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/" data-toggle="tooltip" data-placement="top" title="">Next Post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -313,6 +311,17 @@ $$r = log\ p(response|message)+log\ p(message|response)$$</li>
             <!-- Tabe of Content -->
             <!-- Table of Contents -->
 
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">有意义的答复</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.0.1.</span> <span class="toc-nav-text">Seq2Seq Model</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.0.2.</span> <span class="toc-nav-text">问题</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">保持说话者的一致性</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">多轮对话系统</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">解决方案：增强学习</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">让机器人学会提问</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
                 
             <!-- Sidebar Container -->
             <div class="
@@ -327,6 +336,10 @@ $$r = log\ p(response|message)+log\ p(message|response)$$</li>
                     <h5><a href="/tags/">FEATURED TAGS</a></h5>
                     <div class="tags">
                        
+                          <a class="tag" href="/tags/#Deep Learning" title="Deep Learning">Deep Learning</a>
+                        
+                          <a class="tag" href="/tags/#Chatbot" title="Chatbot">Chatbot</a>
+                        
                     </div>
                 </section>
                 
@@ -360,8 +373,8 @@ $$r = log\ p(response|message)+log\ p(message|response)$$</li>
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     var disqus_shortname = "your-disqus-ID";
-    var disqus_identifier = "joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/";
-    var disqus_url = "joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/";
+    var disqus_identifier = "joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/";
+    var disqus_url = "joscarjiang.github.io/2017/08/19/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/斯坦福博士李纪为：如何打造对话机器人 直播笔记（太长不看版）/";
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
